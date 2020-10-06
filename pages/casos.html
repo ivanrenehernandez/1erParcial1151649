@@ -144,12 +144,10 @@
                 let i = 0;
                 for (var caso of data) {
                     //    console.log(caso);
-                    if (i == 25) {
-                        return;
-                    }
+
                     cases.innerHTML += `
                     <tr>
-                        <td>${i} </td>
+                        <td>${i + 1} </td>
                         <td> ${caso.fecha_de_notificaci_n}</td>
                         <td> ${caso.ciudad_de_ubicaci_n}</td>
                         <td> ${caso.atenci_n}</td>
@@ -160,6 +158,9 @@
                         <td> ${caso.ubicaci_n_recuperado}</td>
                     </tr>
                 `;
+                    if (i == 25) {
+                        return;
+                    }
                     i++;
                 }
             });

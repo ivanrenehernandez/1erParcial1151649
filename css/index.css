@@ -2,6 +2,10 @@
     height: calc(100vh);
 }
 
+.mycard {
+    background-color: #E7CEF6;
+}
+
 .btn-button1 {
     background-color: #842BB9;
     color: white;
