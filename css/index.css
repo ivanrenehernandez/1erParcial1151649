@@ -1,5 +1,6 @@
-/* #content-body {
-} */
+#content-body {
+    height: calc(100vh);
+}
 .btn-button1{
     background-color: #842BB9;
     color: white;
