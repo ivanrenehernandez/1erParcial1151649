@@ -1,7 +1,17 @@
 #content-body {
     height: calc(100vh);
 }
-.btn-button1{
+
+.btn-button1 {
     background-color: #842BB9;
     color: white;
+}
+
+.mytable {
+    background-color: #842BB9;
+    color: white;
+}
+
+.mytable:hover {
+    background-color: #CD3122;
 }
